@@ -4,6 +4,13 @@
 
 ## CLI Commands
 
+Create Migration
+
+```
+migrate create -ext sql -dir migrations/mysql -seq initializeDB
+```
+
+Force Migration
 ``` 
   migrate -database "mysql://root:root@tcp(localhost)/push_db" -path yourMigrationScriptPath force V
 ``` 
