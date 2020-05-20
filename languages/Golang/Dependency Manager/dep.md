@@ -6,7 +6,7 @@ import paths) and gets all the dependencies of the highest compatible version.
 
 ## dep ensure
 
-Please make sure that my project is in sync: that Gopkg.lock satisfies all the imports in my project, and all the rules in Gopkg.toml, and that vendor/ contains exactly what Gopkg.lock says it should."
+`dep ensure` makes sure that my project is in sync: that Gopkg.lock satisfies all the imports in my project, and all the rules in Gopkg.toml, and that vendor/ contains exactly what Gopkg.lock says it should."
 
 ## Transitive Dependencies
 
