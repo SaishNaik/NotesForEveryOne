@@ -4,6 +4,10 @@ Dep is a dependency management tool in golang. The best option is to create your
 Dep init creates 3 files : `Gopkg.toml` `Gopkg.lock` and `vendor`. When you do `dep init`, dep finds out all your dependencies(using
 import paths) and gets all the dependencies of the highest compatible version.
 
+## dep ensure
+
+Please make sure that my project is in sync: that Gopkg.lock satisfies all the imports in my project, and all the rules in Gopkg.toml, and that vendor/ contains exactly what Gopkg.lock says it should."
+
 ## Transitive Dependencies
 
 These are dependencies which are not a dependency of the actual project but the dependency of a dependency you have added.
