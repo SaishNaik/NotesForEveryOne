@@ -4,4 +4,7 @@ For rotating a 2D array or matrix, always transpose the matrix first. Then flip 
 
 To convert a numeric char to int in java, `int temp = numeric_character - '0';`
 
+In Java, only signed integers are present. However we should not be worried about its implementation as long as we are using bit operators. The system will give the correct result in case of any bit operations while using it as a integer.
+
+
 
