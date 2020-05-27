@@ -13,7 +13,7 @@ In array, if told to find the sum of n nos where n > 2, try to fix nums and redu
 
 In case of duplicates not to be included in Array , try to sort if feasible. Then while traversing you can ignore elements if duplicate easily. 
 
-In case of matrix,  rowcount = matrix.length , columncount = matrix[0].length 
+In case of matrix,  rowcount = matrix.length , columncount = matrix[0].length. 
 
 
 
