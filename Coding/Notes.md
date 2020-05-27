@@ -9,6 +9,9 @@ In Java, only signed integers are present. However we should not be worried abou
 In bit manipulation problems, whenever you are asked for "difference in the corresponding bits", always think of `xor` operator. `Integer.bitCount` counts the no of 1 bits in java.
 A number XOR itself will become 0. Any number XOR with 0 will stay unchanged.
 
+In array, if told to find the sum of n nos where n > 2, try to fix nums and reduce the problem to  sum of  2 nos.
+In case of duplicates not to be included in Array , try to sort if feasible. Then while traversing you can ignore elements if duplicate easily. 
+
 
 
 
