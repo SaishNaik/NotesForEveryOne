@@ -18,5 +18,7 @@ In case of matrix,  rowcount = matrix.length , columncount = matrix[0].length.
 If it says found cycle in the list or other similar message in case of linkedlist problems, check if you have added null as last element of linked list. eg. if `temp` points to last node, make sure `temp.next= null`  is set. This found cycle error 
 usually occurs when modifying an existing list `in place`.
 
+If you encounter `The order of your output does not matter.`, it is likely that the problem solution might involve sorting or other order changing method.
+
 
 
