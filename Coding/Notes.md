@@ -20,5 +20,7 @@ usually occurs when modifying an existing list `in place`.
 
 If you encounter `The order of your output does not matter.`, it is likely that the problem solution might involve sorting or other order changing method.
 
+If you are finding index of a character for a 0 based aplhabetic array use `c - 'a'` where c is the character whose position you want to find.
+
 
 
