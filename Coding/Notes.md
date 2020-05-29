@@ -22,5 +22,7 @@ If you encounter `The order of your output does not matter.`, it is likely that 
 
 If you are finding index of a character for a 0 based aplhabetic array use `c - 'a'` where c is the character whose position you want to find.
 
+Whenever a variation of a given problem is given such as finding the length of the longest palindromic substring in a substring, try to solve the smaller problem ( in this case palindrome) in a way that would help you in getting the final solution as palindrome check can be done in many ways.   
+
 
 
