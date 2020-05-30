@@ -22,6 +22,10 @@ If you encounter `The order of your output does not matter.`, it is likely that 
 
 If you are finding index of a character for a 0 based aplhabetic array use `c - 'a'` where c is the character whose position you want to find.
 
+To convert int to char `char c = (char)(int_value)`
+
+To convert int to character in a to z, `char c = (char)(a+int_value)` where int_value is between 0 and 25 both inclusive.
+
 //todo check if it is correct. If not needs to be deleted 
 Whenever a variation of a given problem is given such as finding the length of the longest palindromic substring in a substring, try to solve the smaller problem ( in this case palindrome) in a way that would help you in getting the final solution as palindrome check can be done in many ways.   
 //todo check if it is correct. If not needs to be deleted 
