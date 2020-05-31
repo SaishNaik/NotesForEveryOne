@@ -40,6 +40,28 @@ A min-heap is a complete binary tree (that is, totally filled other than the rig
 level) where each node is smaller than its children. The root, therefore, is the minimum element in the tree. (max heap viceversa)  
 Always implement min heap with a array.
 
+## Bits Manipulation
+
+a * 2 is shifting a to the left by 1.  
+a ^ (~a) will give you 1 as all bits.
+a & pow(2,n) will result in last n bits to be 0. 
+
+Recall that these operations occur bit-by-bit, with what's happening on
+one bit never impacting the other bits. This means that if one of the above statements is true for a single bit,
+then it's true for a sequence of bits.
+
+Below s means series of 1
+
+x ^ 0s = x
+x ^ 1s = ~x
+x ^ x = 0
+x & 0s = 0
+x & 1s = x
+x & x = x
+x | 0s = x
+x | 1s = 1s
+x | x = x
+
 
 
 
