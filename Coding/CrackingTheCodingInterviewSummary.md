@@ -32,7 +32,7 @@ A perfect binary tree is one that is both full and complete. All leaf nodes will
 level has the maximum number of nodes.  
 Traversal : in-order, post-order, and pre-order traversal. The most common of these is in-order traversal.  
 Inorder: When performed on a binary search tree, it visits the nodes in ascending order (hence the name "in-order").  
-Preorder:In a pre-order traversal, the root is always the first node visited.  
+Preorder: In a pre-order traversal, the root is always the first node visited.  
 Postorder: the root is always the last node visited.  
 
 ## Heaps
