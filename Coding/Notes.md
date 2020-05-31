@@ -28,6 +28,8 @@ To convert int to character in a to z, `char c = (char)(a+int_value)` where int_
 
 Always implement min heap with a array.It makes it easier to add the element at the bottom.
 
+Decimal value of a is 97 and A is 65
+
 //todo check if it is correct. If not needs to be deleted 
 Whenever a variation of a given problem is given such as finding the length of the longest palindromic substring in a substring, try to solve the smaller problem ( in this case palindrome) in a way that would help you in getting the final solution as palindrome check can be done in many ways.   
 //todo check if it is correct. If not needs to be deleted
