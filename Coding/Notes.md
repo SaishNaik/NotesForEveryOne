@@ -41,6 +41,8 @@ it will allow to define the start/initial value as null.
 
 We can use == operators for reference comparison (address comparison) and .equals() method for content comparison. In simple words, == checks if both objects point to the same memory location whereas .equals() evaluates to the comparison of values in the objects.
 
+In bit manipulation, mask is a no that you will compare the given number against for a particular operation to get the desired result.
+
 //todo check if it is correct. If not needs to be deleted 
 Whenever a variation of a given problem is given such as finding the length of the longest palindromic substring in a substring, try to solve the smaller problem ( in this case palindrome) in a way that would help you in getting the final solution as palindrome check can be done in many ways.   
 //todo check if it is correct. If not needs to be deleted
