@@ -42,9 +42,9 @@ Always implement min heap with a array.
 
 ## Bits Manipulation
 
-a * 2 is shifting a to the left by 1.  
-a ^ (~a) will give you 1 as all bits.
-a & pow(2,n) will result in last n bits to be 0. 
+`a * 2` is shifting a to the left by 1.  
+`a ^ (~a)` will give you 1 as all bits.
+`a & pow(2,n)` will result in last n bits to be 0. 
 
 Recall that these operations occur bit-by-bit, with what's happening on
 one bit never impacting the other bits. This means that if one of the above statements is true for a single bit,
@@ -52,6 +52,7 @@ then it's true for a sequence of bits.
 
 Below s means series of 1
 
+```
 x ^ 0s = x  
 x ^ 1s = ~x  
 x ^ x = 0  
@@ -61,7 +62,7 @@ x & x = x
 x | 0s = x  
 x | 1s = 1s  
 x | x = x  
-
+```
 
 
 
