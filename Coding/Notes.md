@@ -34,6 +34,9 @@ Permutations means order matters. Combination order does not matter.
 
 Binary tree representation as a array is left child = 2*parentindex + 1, right child = 2*parentindex + 2
 
+Given a problem to find max or min where the data set may contain Max integer and Min integer, use the Integer class. Because
+it will allow to define the start value as null.
+
 //todo check if it is correct. If not needs to be deleted 
 Whenever a variation of a given problem is given such as finding the length of the longest palindromic substring in a substring, try to solve the smaller problem ( in this case palindrome) in a way that would help you in getting the final solution as palindrome check can be done in many ways.   
 //todo check if it is correct. If not needs to be deleted
