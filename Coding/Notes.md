@@ -30,6 +30,8 @@ Always implement min heap with a array.It makes it easier to add the element at 
 
 Decimal value of a is 97 and A is 65
 
+Permutations means order matters. Combination order does not matter.
+
 //todo check if it is correct. If not needs to be deleted 
 Whenever a variation of a given problem is given such as finding the length of the longest palindromic substring in a substring, try to solve the smaller problem ( in this case palindrome) in a way that would help you in getting the final solution as palindrome check can be done in many ways.   
 //todo check if it is correct. If not needs to be deleted
