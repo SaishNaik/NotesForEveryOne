@@ -87,6 +87,8 @@ Bidirectional search is used to find the shortest path between a source and dest
 by essentially running two simultaneous breadth-first searches, one from each node. When their searches
 collide, we have found a path. Time complexity : O(b^{d/2}). BFS would take O(b^d). 
 
+### Note From geeksforgeeks
+We can consider bidirectional approach when- 1) Both initial and goal states are unique and completely defined.2)The branching factor is exactly the same in both directions.
 
 
 ## Bits Manipulation
