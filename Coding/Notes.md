@@ -1,4 +1,6 @@
-# Tips
+# Tips 
+
+Note: `There are certain tips only specific to java`
 
 For rotating a 2D array or matrix, always transpose the matrix first. Then flip or swap the columns in case of clockwise rotation or swap the rows in case of anticlockwise rotation. One whole operation of transpose and swap flips it by 90 degrees.
 
@@ -35,7 +37,9 @@ Permutations means order matters. Combination order does not matter.
 Binary tree representation as a array is left child = 2*parentindex + 1, right child = 2*parentindex + 2
 
 Given a problem to find max or min where the data set may contain Max integer and Min integer, use the Integer class. Because
-it will allow to define the start value as null.
+it will allow to define the start/initial value as null.
+
+We can use == operators for reference comparison (address comparison) and .equals() method for content comparison. In simple words, == checks if both objects point to the same memory location whereas .equals() evaluates to the comparison of values in the objects.
 
 //todo check if it is correct. If not needs to be deleted 
 Whenever a variation of a given problem is given such as finding the length of the longest palindromic substring in a substring, try to solve the smaller problem ( in this case palindrome) in a way that would help you in getting the final solution as palindrome check can be done in many ways.   
