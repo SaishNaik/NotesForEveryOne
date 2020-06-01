@@ -51,6 +51,12 @@ heap property is restored. The swap down should be done with smaller of its chil
 
 Time Complexity O(logn)
 
+## Tries (Prefix Trees)
+
+A Trie is a nary tree. The * nodes (sometimes called "null nodes") are often used to indicate complete words. A node in a trie could have children  anywhere from 1 through ALPHABET_SIZE +1. +1 is for null nodes.
+
+While a hash table can quickly look up whether a string is a valid word, it cannot tell us if a string is a prefix of any valid words. A trie can do this very quickly.A trie can check if a string is a valid prefix i n O ( K ) time, where K is the length of the string.
+
 
 ## Bits Manipulation
 
