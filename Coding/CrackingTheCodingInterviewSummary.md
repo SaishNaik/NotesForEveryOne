@@ -57,6 +57,37 @@ A Trie is a nary tree. The * nodes (sometimes called "null nodes") are often use
 
 While a hash table can quickly look up whether a string is a valid word, it cannot tell us if a string is a prefix of any valid words. A trie can do this very quickly.A trie can check if a string is a valid prefix i n O ( K ) time, where K is the length of the string.
 
+## Graphs
+
+A tree is a connected graph without cycles.If there is a path between every pair of vertices,it is called a connected graph.
+
+Representation in 2 ways:  
+
+Adjaceny List : Every vertex (or node] stores a list of adjacent vertices.An array (or a hash table) of lists
+(arrays, array lists, linked lists, etc.) can store the adjacency list
+Adjacency matrix is an NxN boolean matrix (where N is the number of nodes), where a true value at
+m a t r i x [ i ] [ j ] indicates an edge from node i to node j. In an undirected graph, an adjacency matrix will be symmetric.
+
+Graph Search
+
+DFS : In depth-first search (DFS), we start at the root (or another arbitrarily selected node) and explore each
+branch completely before moving on to the next branch.  
+Pre-order and other forms of tree traversal are a form of DFS. The key difference is that when
+implementing this algorithm for a graph, we must check if the node has been visited. If we don't, we risk
+getting stuck in an infinite loop.  
+
+BFS: In Breadth first search, we start at the root (or another arbitrarily selected node) and explore each
+neighbor before going on to any of their children. That is, we go wide (hence breadth-first search) before
+we go deep. Uses a queue.
+
+DFS is often preferred if we want to visit every node in the graph. But If we want to find the shortest path (or just any path) between two nodes, BFS is generally better.
+
+Bidirectional Search
+Bidirectional search is used to find the shortest path between a source and destination node. It operates
+by essentially running two simultaneous breadth-first searches, one from each node. When their searches
+collide, we have found a path. Time complexity : O(b^{d/2}). BFS would take O(b^d). 
+
+
 
 ## Bits Manipulation
 
