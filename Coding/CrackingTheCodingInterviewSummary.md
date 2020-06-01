@@ -40,11 +40,11 @@ A min-heap is a complete binary tree (that is, totally filled other than the rig
 level) where each node is smaller than its children. The root, therefore, is the minimum element in the tree. (max heap viceversa)  
 Always implement min heap with a array.
 
-Insert
+Insert  
 When we insert into a min-heap, we always start by inserting the element at the bottom. We insert at the
 rightmost spot so as to maintain the complete tree property. Then, we "fix" the tree by swapping the new element with its parent, until we find an appropriate spot forthe element. We essentially bubble up the minimum element.
 
-Extract Minimum
+Extract Minimum  
 First, we remove the minimum element and swap it with the last element in the heap (the bottommost,
 rightmost element). Then, we bubble down this element, swapping it with one of its children until the min-
 heap property is restored. The swap down should be done with smaller of its children to maintain min heap poperty.
