@@ -43,6 +43,9 @@ We can use == operators for reference comparison (address comparison) and .equal
 
 In bit manipulation, mask is a no that you will compare the given number against for a particular operation to get the desired result.
 
+Arrays.binarySearch() returns the index of the search key, if it is contained in the array; otherwise, (-(insertion point) – 1) .The insertion point is defined as the point at which the key would be inserted into the array: the index of the first element greater than the key, or array.length if all elements in the array are less than the specified key.
+
+
 //todo check if it is correct. If not needs to be deleted 
 Whenever a variation of a given problem is given such as finding the length of the longest palindromic substring in a substring, try to solve the smaller problem ( in this case palindrome) in a way that would help you in getting the final solution as palindrome check can be done in many ways.   
 //todo check if it is correct. If not needs to be deleted
