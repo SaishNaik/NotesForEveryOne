@@ -48,6 +48,8 @@ The insertion point is defined as the point at which the key would be inserted i
 
 Use Greedy Algorithms only if there is a single path from the current state.
 
+In Java, primitive types and even Integers and Strings wont be updated in function calls, So either use a array or list.
+
 
 //todo check if it is correct. If not needs to be deleted 
 Whenever a variation of a given problem is given such as finding the length of the longest palindromic substring in a substring, try to solve the smaller problem ( in this case palindrome) in a way that would help you in getting the final solution as palindrome check can be done in many ways.   
