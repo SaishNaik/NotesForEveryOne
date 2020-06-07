@@ -48,7 +48,7 @@ The insertion point is defined as the point at which the key would be inserted i
 
 Use Greedy Algorithms only if there is a single path from the current state.
 
-In Java, primitive types and even Integers and Strings wont be updated in function calls, So either use a array or list.
+In Java, primitive types and even Integers  wont be updated in function calls, So either use a array or list.
 
 
 //todo check if it is correct. If not needs to be deleted 
