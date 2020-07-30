@@ -54,3 +54,8 @@ In Java, primitive types and even Integers  wont be updated in function calls, S
 //todo check if it is correct. If not needs to be deleted 
 Whenever a variation of a given problem is given such as finding the length of the longest palindromic substring in a substring, try to solve the smaller problem ( in this case palindrome) in a way that would help you in getting the final solution as palindrome check can be done in many ways.   
 //todo check if it is correct. If not needs to be deleted
+
+Strings.replace("old","new") will replace characters or char sequence .
+Strings.replaceAll("regexold","new") will replace it with regex.
+Strings.replaceAll("\\.","new") to replace . with new  
+
