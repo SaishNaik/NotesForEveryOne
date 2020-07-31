@@ -61,3 +61,5 @@ Strings.replaceAll("\\.","new") to replace . with new
 
 Cycle sort is an in-place sorting Algorithm, unstable sorting algorithm, a comparison sort that is theoretically optimal in terms of the total number of writes to the original array. This sorting algorithm is best suited for situations where memory write or swap operations are costly.
 
+(1<<32) -1 gives you a bit mask for 32 bit integer.
+
