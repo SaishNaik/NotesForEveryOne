@@ -63,3 +63,5 @@ Cycle sort is an in-place sorting Algorithm, unstable sorting algorithm, a compa
 
 (1<<32) -1 gives you a bit mask for 32 bit integer.
 
+ If last bit is set then the number is odd, otherwise even. 
+
