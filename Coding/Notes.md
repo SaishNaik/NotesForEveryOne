@@ -66,10 +66,12 @@ Cycle sort is an in-place sorting Algorithm, unstable sorting algorithm, a compa
  If last bit is set then the number is odd, otherwise even. 
  
  
- to convert Integer list to int[] , use  l.stream().mapToInt(i->i).toArray();
+ to convert Integer list to int[] , use  `l.stream().mapToInt(i->i).toArray();`
  
 Iterate through map
+ ```
  for (Map.Entry<String, Integer> entry : map.entrySet()) {
             System.out.println(entry.getKey() + "/" + entry.getValue());
 }
+```
 
