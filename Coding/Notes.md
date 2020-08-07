@@ -75,3 +75,5 @@ Iterate through map
 }
 ```
 
+If there is something common to find, many times hashmaps can be used.
+
