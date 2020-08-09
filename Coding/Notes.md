@@ -77,3 +77,7 @@ Iterate through map
 
 If there is something common to find, many times hashmaps can be used.
 
+to go through all characters of string
+```str.chars().forEach(c->{});```
+
+
