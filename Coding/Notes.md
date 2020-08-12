@@ -65,7 +65,6 @@ Cycle sort is an in-place sorting Algorithm, unstable sorting algorithm, a compa
 
  If last bit is set then the number is odd, otherwise even. 
  
- 
  to convert Integer list to int[] , use  `l.stream().mapToInt(i->i).toArray();`
  
 Iterate through map
@@ -81,3 +80,4 @@ to go through all characters of string
 ```str.chars().forEach(c->{});```
 
 
+Removing characters from array,use 2 pointer approach
