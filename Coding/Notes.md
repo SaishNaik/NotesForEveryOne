@@ -81,3 +81,5 @@ to go through all characters of string
 
 
 Removing characters from array,use 2 pointer approach
+
+String.valueOf()  This method returns the string representation of the passed argument.
